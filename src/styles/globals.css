@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  /* Colors */
+  --color-crimson: #c4151c;
+  --color-crimson-dark: #a01117;
+  --color-crimson-light: #e8181f;
+  --color-gray-soft: #E5E5E5;
+  --color-gray-light: #F8F8F8;
+  --color-gray-medium: #666666;
+  
+  /* Fonts */
+  --font-family-serif: 'Crimson Text', serif;
+  --font-family-sans: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000;
+  background: #fff;
+}
+
+/* Typography Defaults */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-serif);
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+h5 {
+  font-size: 1.35rem;
+}
+
+h6 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-family: var(--font-family-sans);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: var(--font-family-sans);
+}
+
+/* Utility Classes */
+.serif {
+  font-family: var(--font-family-serif);
+}
+
+.sans {
+  font-family: var(--font-family-sans);
+}
+
+/* Modern gradient background */
+.gradient-bg {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f8f8 100%);
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, #c4151c 0%, #a01117 100%);
+}
+
+/* Subtle Background Pattern - More Modern */
+.dharmachakra-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.dharmachakra-bg::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -200px;
+  width: 1000px;
+  height: 1000px;
+  transform: translateY(-50%);
+  opacity: 0.02;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='none' stroke='%23000' stroke-width='0.5'/%3E%3Ccircle cx='50' cy='50' r='8' fill='%23000'/%3E%3Cline x1='50' y1='5' x2='50' y2='42' stroke='%23000' stroke-width='1.5'/%3E%3Cline x1='50' y1='58' x2='50' y2='95' stroke='%23000' stroke-width='1.5'/%3E%3Cline x1='5' y1='50' x2='42' y2='50' stroke='%23000' stroke-width='1.5'/%3E%3Cline x1='58' y1='50' x2='95' y2='50' stroke='%23000' stroke-width='1.5'/%3E%3Cline x1='15' y1='15' x2='42' y2='42' stroke='%23000' stroke-width='1.5'/%3E%3Cline x1='58' y1='58' x2='85' y2='85' stroke='%23000' stroke-width='1.5'/%3E%3Cline x1='85' y1='15' x2='58' y2='42' stroke='%23000' stroke-width='1.5'/%3E%3Cline x1='42' y1='58' x2='15' y2='85' stroke='%23000' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dharmachakra-bg > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Modern hover effects */
+.modern-card-hover {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modern-card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth Transitions */
+* {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+button, a {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Glass effect */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@font-face {
+  font-family: 'MongolianScript';
+  src: url('/src/assets/fonts/MongolianScript.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

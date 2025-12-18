@@ -13,7 +13,7 @@ export default function InitialChoice(): JSX.Element {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/assets/index.svg"
+          src="assets/index.svg"
           alt="Mongolia"
           className="w-full h-full object-cover"
         />

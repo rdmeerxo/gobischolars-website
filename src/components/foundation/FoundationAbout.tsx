@@ -12,7 +12,7 @@ export default function FoundationAbout() {
       <section className="relative h-screen min-h-[800px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="/assets/about.svg"
+            src="assets/about.svg"
             alt="About GobiScholars Foundation"
             className="w-full h-full object-cover"
           />
@@ -62,7 +62,7 @@ export default function FoundationAbout() {
             {/* Image */}
             <div className="relative">
               <ImageWithFallback
-                src="/assets/about2.svg"
+                src="assets/about2.svg"
                 alt="GobiScholars Team"
                 className="w-full h-[500px] object-cover rounded-sm"
               />
@@ -170,8 +170,8 @@ export default function FoundationAbout() {
 <br/>
           {/* Top Images */}
           <div className="grid md:grid-cols-2 gap-10 mb-20">
-            <img src="/assets/about12scholar.svg" alt="Scholars Group 1" className="w-full h-80 object-cover rounded" />
-            <img src="/assets/about12scholar1.svg" alt="Scholars Group 2" className="w-full h-80 object-cover rounded" />
+            <img src="assets/about12scholar.svg" alt="Scholars Group 1" className="w-full h-80 object-cover rounded" />
+            <img src="assets/about12scholar1.svg" alt="Scholars Group 2" className="w-full h-80 object-cover rounded" />
           </div>
           
 
@@ -179,7 +179,7 @@ export default function FoundationAbout() {
           {/* <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-16">
             <div className="border border-gray-200 p-6 text-left">
               <div className="w-full h-40 bg-gray-100 flex items-center justify-center mb-4 rounded"></div>
-              <img src="/assets/about12scholar.svg" alt="Scholars Group 1" className="w-full h-80 object-cover rounded" />
+              <img src="assets/about12scholar.svg" alt="Scholars Group 1" className="w-full h-80 object-cover rounded" />
               <p className="text-black font-semibold">Scholar 1</p>
               <p className="text-gray-600 text-sm">University Name</p>
               <p className="text-[#c4151c] text-sm font-semibold mt-1">Class of 2024</p>
@@ -187,7 +187,7 @@ export default function FoundationAbout() {
 
             <div className="border border-gray-200 p-6 text-left">
               <div className="w-full h-40 bg-gray-100 flex items-center justify-center mb-4 rounded"></div>
-              <img src="/assets/about12scholar.svg" alt="Scholars Group 1" className="w-full h-80 object-cover rounded" />
+              <img src="assets/about12scholar.svg" alt="Scholars Group 1" className="w-full h-80 object-cover rounded" />
               <p className="text-black font-semibold">Scholar 2</p>
               <p className="text-gray-600 text-sm">University Name</p>
               <p className="text-[#c4151c] text-sm font-semibold mt-1">Class of 2024</p>
@@ -195,7 +195,7 @@ export default function FoundationAbout() {
 
             <div className="border border-gray-200 p-6 text-left">
               <div className="w-full h-40 bg-gray-100 flex items-center justify-center mb-4 rounded"></div>
-              <img src="/assets/about12scholar.svg" alt="Scholars Group 1" className="w-full h-80 object-cover rounded" />
+              <img src="assets/about12scholar.svg" alt="Scholars Group 1" className="w-full h-80 object-cover rounded" />
               <p className="text-black font-semibold">Scholar 3</p>
               <p className="text-gray-600 text-sm">University Name</p>
               <p className="text-[#c4151c] text-sm font-semibold mt-1">Class of 2024</p>
@@ -203,7 +203,7 @@ export default function FoundationAbout() {
 
             <div className="border border-gray-200 p-6 text-left">
               <div className="w-full h-40 bg-gray-100 flex items-center justify-center mb-4 rounded"></div>
-              <img src="/assets/about12scholar.svg" alt="Scholars Group 1" className="w-full h-80 object-cover rounded" />
+              <img src="assets/about12scholar.svg" alt="Scholars Group 1" className="w-full h-80 object-cover rounded" />
               <p className="text-black font-semibold">Scholar 4</p>
               <p className="text-gray-600 text-sm">University Name</p>
               <p className="text-[#c4151c] text-sm font-semibold mt-1">Class of 2024</p>
@@ -235,7 +235,7 @@ export default function FoundationAbout() {
           {/* Large image */}
           <div className="max-w-4xl mx-auto mt-8 mb-12">
             <ImageWithFallback
-              src="/assets/about_future.svg"
+              src="assets/about_future.svg"
               alt="Future vision"
               className="w-full h-72 object-cover rounded"
             />
@@ -423,7 +423,7 @@ export default function FoundationAbout() {
           <div className="grid lg:grid-cols-2 gap-10 items-center mb-16">
             <div className="w-full">
               <ImageWithFallback
-                src="/assets/about_team.svg"
+                src="assets/about_team.svg"
                 alt="Leadership group"
                 className="w-full h-[360px] object-cover rounded"
               />

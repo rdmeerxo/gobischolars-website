@@ -9,7 +9,7 @@ export default function FoundationTeam() {
       <section className="relative h-screen min-h-[800px] flex items-center justify-center overflow-hidden">
               <div className="absolute inset-0">
                 <ImageWithFallback
-                  src="/assets/GobiScholars_team.svg"
+                  src="assets/GobiScholars_team.svg"
                   alt="GobiScholars Academy Team"
                   className="w-full h-full object-cover"
                 />

@@ -259,8 +259,8 @@ export default function Footer({ type }: FooterProps) {
         <img
           src={
             isFoundation
-              ? '/src/assets/GOBISCHOLARS_FOUNDATION_footer.svg'
-              : '/src/assets/GOBISCHOLARS_ACADEMY_footer.svg'
+              ? '/assets/GOBISCHOLARS_FOUNDATION_footer.svg'
+              : '/assets/GOBISCHOLARS_ACADEMY_footer.svg'
           }
           alt=""
           aria-hidden="true"

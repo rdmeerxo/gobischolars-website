@@ -105,7 +105,7 @@
 //         {/* SVG background image */}
 //         <div className="absolute inset-0 opacity-70 pointer-events-none">
 //           <ImageWithFallback
-//             src="/src/assets/donate.svg"
+//             src="/assets/donate.svg"
 //             alt="GobiScholars donate background"
 //             className="w-full h-full object-cover"
 //           />

@@ -73,7 +73,7 @@ export default function FoundationHome() {
       <section className="relative h-screen md:min-h-[800px] min-h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="/src/assets/ngo_home.svg"
+            src="/assets/ngo_home.svg"
             alt="GobiScholars Foundation Team"
             className="w-full h-full object-cover"
           />
@@ -168,7 +168,7 @@ export default function FoundationHome() {
           {/* Right image */}
           <div className="w-full pl-0 md:pl-6 lg:pl-20">
             <ImageWithFallback
-              src="/src/assets/ngo_high.svg"
+              src="/assets/ngo_high.svg"
               alt="Interns group"
               className="w-full h-64 sm:h-80 lg:h-[420px] object-cover rounded-sm"
             />

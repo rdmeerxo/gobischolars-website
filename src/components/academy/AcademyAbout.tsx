@@ -12,7 +12,7 @@ export default function AcademyAbout() {
       <section className="relative h-screen min-h-[800px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="/gobischolars-website/assets/About_GobiScholars.svg"
+            src="/assets/About_GobiScholars.svg"
             alt="About GobiScholars Academy"
             className="w-full h-full object-cover"
           />
@@ -52,7 +52,7 @@ export default function AcademyAbout() {
           <div className="grid lg:grid-cols-2 gap-20 items-center mb-20">
             <div className="relative">
               <ImageWithFallback
-                src="/gobischolars-website/assets/About_1.svg"
+                src="/assets/About_1.svg"
                 alt="Academy Team"
                 className="w-full h-[500px] object-cover rounded-sm"
               />
@@ -295,7 +295,7 @@ export default function AcademyAbout() {
 
             <div className="relative">
               <ImageWithFallback
-                src="/gobischolars-website/assets/Making_us_diff.svg"
+                src="/assets/Making_us_diff.svg"
                 alt="Teaching and Mentorship"
                 className="w-full h-[500px] object-cover rounded-sm"
               />

@@ -114,7 +114,7 @@ export default function Navbar({ type }: NavbarProps) {
           <Link to={isFoundation ? '/foundation' : (isLoggedIn ? '/academy/dashboard' : '/academy')} className="flex items-center gap-4 group md:hidden">
             <div className="flex flex-col">
               <img
-                src={isFoundation ? '/gobischolars-website/assets/GOBISCHOLARS_FOUNDATION.svg' : '/gobischolars-website/assets/GOBISCHOLARS_ACADEMY.svg'}
+                src={isFoundation ? '/assets/GOBISCHOLARS_FOUNDATION.svg' : '/assets/GOBISCHOLARS_ACADEMY.svg'}
                 alt="GobiScholars Logo"
                 className="h-5 w-auto object-contain"
               />
@@ -155,7 +155,7 @@ export default function Navbar({ type }: NavbarProps) {
                 className="hidden md:flex flex-col items-center flex-none"
               >
                 <img
-                  src="/gobischolars-website/assets/GOBISCHOLARS_FOUNDATION.svg"
+                  src="/assets/GOBISCHOLARS_FOUNDATION.svg"
                   alt="GobiScholars Foundation Logo"
                   className="h-5 w-auto object-contain"
                 />
@@ -221,7 +221,7 @@ export default function Navbar({ type }: NavbarProps) {
                 className="hidden md:flex flex-col items-center flex-none"
               >
                 <img
-                  src="/gobischolars-website/assets/GOBISCHOLARS_ACADEMY.svg"
+                  src="/assets/GOBISCHOLARS_ACADEMY.svg"
                   alt="GobiScholars Academy Logo"
                   className="h-5 w-auto object-contain"
                 />

@@ -13,7 +13,7 @@ export default function AcademyHome() {
       <section className="relative min-h-[600px] sm:min-h-[700px] lg:min-h-[800px] h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="/gobischolars-website/assets/academy_home.svg"
+            src="/assets/academy_home.svg"
             alt="Modern Learning"
             className="w-full h-full object-cover"
           />

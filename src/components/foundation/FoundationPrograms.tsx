@@ -9,7 +9,7 @@ export default function FoundationPrograms() {
       <section className="relative h-screen min-h-[800px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="assets/program_home page.svg"
+            src="/gobischolars-website/assets/program_home page.svg"
             alt="GobiScholars Progams"
             className="w-full h-full object-cover"
           />
@@ -93,7 +93,7 @@ export default function FoundationPrograms() {
             <div className="space-y-6">
               <div className="overflow-hidden aspect-[4/3]">
                 <ImageWithFallback
-                  src="assets/Mongolia_landscape.svg"
+                  src="/gobischolars-website/assets/Mongolia_landscape.svg"
                   alt="Mongolia landscape"
                   className="w-full h-full object-cover"
                 />
@@ -101,14 +101,14 @@ export default function FoundationPrograms() {
               <div className="grid grid-cols-2 gap-6">
                 <div className="overflow-hidden aspect-square">
                   <ImageWithFallback
-                    src="assets/Traditional_yurt.svg"
+                    src="/gobischolars-website/assets/Traditional_yurt.svg"
                     alt="Traditional yurt"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="overflow-hidden aspect-square">
                   <ImageWithFallback
-                    src="assets/Group_photo.svg"
+                    src="/gobischolars-website/assets/Group_photo.svg"
                     alt="Group photo"
                     className="w-full h-full object-cover"
                   />
@@ -204,7 +204,7 @@ export default function FoundationPrograms() {
               <div className="flex gap-6">
                 <div className="overflow-hidden w-24 h-24 flex-shrink-0">
                   <ImageWithFallback
-                    src="assets/P_1.svg"
+                    src="/gobischolars-website/assets/P_1.svg"
                     alt="P_1"
                     className="w-full h-full object-cover"
                   />
@@ -220,7 +220,7 @@ export default function FoundationPrograms() {
               <div className="flex gap-6">
                 <div className="overflow-hidden w-24 h-24 flex-shrink-0">
                   <ImageWithFallback
-                    src="assets/P_2.svg"
+                    src="/gobischolars-website/assets/P_2.svg"
                     alt="P_2"
                     className="w-full h-full object-cover"
                   />
@@ -236,7 +236,7 @@ export default function FoundationPrograms() {
               <div className="flex gap-6">
                 <div className="overflow-hidden w-24 h-24 flex-shrink-0">
                   <ImageWithFallback
-                    src="assets/P_3.svg"
+                    src="/gobischolars-website/assets/P_3.svg"
                     alt="P_3"
                     className="w-full h-full object-cover"
                   />
@@ -252,7 +252,7 @@ export default function FoundationPrograms() {
               <div className="flex gap-6">
                 <div className="overflow-hidden w-24 h-24 flex-shrink-0">
                   <ImageWithFallback
-                    src="assets/P_4.svg"
+                    src="/gobischolars-website/assets/P_4.svg"
                     alt="P_4"
                     className="w-full h-full object-cover"
                   />
@@ -489,7 +489,7 @@ export default function FoundationPrograms() {
             </div>
             <div className="overflow-hidden aspect-[4/3] flex items-center justify-center">
                   <ImageWithFallback
-                    src="assets/about12scholar.svg"
+                    src="/gobischolars-website/assets/about12scholar.svg"
                     alt="P_2"
                     className="w-full h-full object-cover"
                   />

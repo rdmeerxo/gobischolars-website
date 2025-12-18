@@ -19,7 +19,7 @@ export default function FoundationScholars() {
       year: '2025',
       location: 'Madrid, Spain',
       bio: 'Focused on education policy and social equity, Anu aims to improve access to quality education for rural communities in Mongolia.',
-      image: 'assets/scholars/GS-2025-01.svg',
+      image: '/gobischolars-website/assets/scholars/GS-2025-01.svg',
     },
     {
       id: 'GS-2025-02',
@@ -29,7 +29,7 @@ export default function FoundationScholars() {
       year: '2025',
       location: 'Budapest, Hungary',
       bio: 'Temuulen is passionate about using AI and data systems to modernize public services and educational infrastructure.',
-      image: 'assets/scholars/GS-2025-02.svg',
+      image: '/gobischolars-website/assets/scholars/GS-2025-02.svg',
     },
     {
       id: 'GS-2025-03',
@@ -39,7 +39,7 @@ export default function FoundationScholars() {
       year: '2025',
       location: 'Ulaanbaatar, Mongolia',
       bio: 'An aspiring educator researching inclusive learning models for underserved student populations.',
-      image: 'assets/scholars/GS-2025-03.svg',
+      image: '/gobischolars-website/assets/scholars/GS-2025-03.svg',
     },
     {
       id: 'GS-2025-04',
@@ -49,7 +49,7 @@ export default function FoundationScholars() {
       year: '2025',
       location: 'Ulaanbaatar, Mongolia',
       bio: 'Interested in development economics and long-term strategies for sustainable national growth.',
-      image: 'assets/scholars/GS-2025-04.svg',
+      image: '/gobischolars-website/assets/scholars/GS-2025-04.svg',
     },
     {
       id: 'GS-2025-05',
@@ -59,7 +59,7 @@ export default function FoundationScholars() {
       year: '2025',
       location: 'Ulaanbaatar, Mongolia',
       bio: 'Solongo studies social systems and inequality with the goal of shaping data-driven public policy.',
-      image: 'assets/scholars/GS-2025-05.svg',
+      image: '/gobischolars-website/assets/scholars/GS-2025-05.svg',
     },
     {
       id: 'GS-2025-06',
@@ -69,7 +69,7 @@ export default function FoundationScholars() {
       year: '2025',
       location: 'Sydney, Australia',
       bio: 'Researching adolescent mental health and student well-being in academic environments.',
-      image: 'assets/scholars/GS-2025-06.svg',
+      image: '/gobischolars-website/assets/scholars/GS-2025-06.svg',
     },
     {
       id: 'GS-2025-07',
@@ -79,7 +79,7 @@ export default function FoundationScholars() {
       year: '2025',
       location: 'Ulaanbaatar, Mongolia',
       bio: 'Driven to build scalable hardware and energy solutions for developing regions.',
-      image: 'assets/scholars/GS-2025-07.svg',
+      image: '/gobischolars-website/assets/scholars/GS-2025-07.svg',
     },
     // {
     //   id: 'GS-2025-08',
@@ -89,7 +89,7 @@ export default function FoundationScholars() {
     //   year: '2025',
     //   location: 'Tokyo, Japan',
     //   bio: 'Focused on diplomacy, regional cooperation, and Mongolia’s role in East Asia.',
-    //   image: 'assets/scholars/GS-2025-08.svg',
+    //   image: '/gobischolars-website/assets/scholars/GS-2025-08.svg',
     // },
     // {
     //   id: 'GS-2025-09',
@@ -99,7 +99,7 @@ export default function FoundationScholars() {
     //   year: '2025',
     //   location: 'London, UK',
     //   bio: 'Aspires to strengthen legal institutions and promote transparency through policy reform.',
-    //   image: 'assets/scholars/GS-2025-09.svg',
+    //   image: '/gobischolars-website/assets/scholars/GS-2025-09.svg',
     // },
     // {
     //   id: 'GS-2025-10',
@@ -109,7 +109,7 @@ export default function FoundationScholars() {
     //   year: '2025',
     //   location: 'California, USA',
     //   bio: 'Working on climate resilience and sustainable resource management initiatives.',
-    //   image: 'assets/scholars/GS-2025-10.svg',
+    //   image: '/gobischolars-website/assets/scholars/GS-2025-10.svg',
     // },
     // {
     //   id: 'GS-2025-11',
@@ -119,7 +119,7 @@ export default function FoundationScholars() {
     //   year: '2025',
     //   location: 'Zurich, Switzerland',
     //   bio: 'Exploring sustainable urban design and resilient city planning.',
-    //   image: 'assets/scholars/GS-2025-11.svg',
+    //   image: '/gobischolars-website/assets/scholars/GS-2025-11.svg',
     // },
     // {
     //   id: 'GS-2025-12',
@@ -129,7 +129,7 @@ export default function FoundationScholars() {
     //   year: '2025',
     //   location: 'Beijing, China',
     //   bio: 'Developing digital learning platforms to bridge educational gaps across regions.',
-    //   image: 'assets/scholars/GS-2025-12.svg',
+    //   image: '/gobischolars-website/assets/scholars/GS-2025-12.svg',
     // },
   ];
 
@@ -139,7 +139,7 @@ export default function FoundationScholars() {
       <section className="relative h-screen min-h-[800px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="assets/12scholars.svg"
+            src="/gobischolars-website/assets/12scholars.svg"
             alt="About GobiScholars Foundation"
             className="w-full h-full object-cover"
           />
@@ -293,7 +293,7 @@ export default function FoundationScholars() {
               <br/>
               <div className="flex items-center gap-4">
                 <img
-                  src="assets/scholars/testimonials/U-Undram.jpg"
+                  src="/gobischolars-website/assets/scholars/testimonials/U-Undram.jpg"
                   alt="Undram"
                   className="w-5 h-5 rounded-full object-cover"
                 />
@@ -311,7 +311,7 @@ export default function FoundationScholars() {
               <br/>
               <div className="flex items-center gap-4">
                 <img
-                  src="assets/scholars/testimonials/Delgerjargal.jpg"
+                  src="/gobischolars-website/assets/scholars/testimonials/Delgerjargal.jpg"
                   alt="Delgerjargal"
                   className="w-5 h-5 rounded-full object-cover"
                 />
@@ -329,7 +329,7 @@ export default function FoundationScholars() {
               <br/>
               <div className="flex items-center gap-4">
                 <img
-                  src="assets/scholars/testimonials/U-Undram.jpg"
+                  src="/gobischolars-website/assets/scholars/testimonials/U-Undram.jpg"
                   alt="Undram"
                   className="w-5 h-5 rounded-full object-cover"
                 />
